@@ -14,8 +14,6 @@ export const topics = [
       "Chapter One",
       "Chapter One",
       "Chapter One",
-      "Chapter One",
-      "Chapter One",
     ],
     location: `/Chapters/${1}`,
   },
