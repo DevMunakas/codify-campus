@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 
 //React Router Dom
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 //Boxicons
 import 'boxicons'
@@ -64,9 +64,11 @@ function Header() {
                         class='header__moonIcon'
                     ></box-icon>
                 </div>
-                <div className="header__userIcon">
-                    <span className="header__userIcon--image">A</span>
-                </div>
+                <NavLink to='/login'>
+                    <div className="header__userIcon">
+                        <span className="header__userIcon--image">A</span>
+                    </div>
+                </NavLink>
             </div>
         </nav>
     )
