@@ -18,7 +18,7 @@ import Main from './components/Main/Main'
 import Lessons from './components/Lessons/Lessons'
 
 function App() {
-
+  const [theme, setTheme] = useState(false)
   return (
     <BrowserRouter>
       <div className="app">

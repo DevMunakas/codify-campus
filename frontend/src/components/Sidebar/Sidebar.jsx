@@ -1,5 +1,5 @@
 //React Hooks
-import React from 'react'
+import React, { useState } from 'react'
 //React Router Dom
 import { NavLink } from 'react-router-dom'
 
@@ -10,11 +10,68 @@ import './Sidebar.css'
 
 
 function Sidebar() {
-    console.log(topics[0].location)
+    const [sidebarOnClick, setSidebarOnClick] = useState(false)
     return (
-        <aside className='sidebar'>
+        <aside className={sidebarOnClick ? 'sidebar active' : 'sidebar'}>
+            <button
+                onClick={() => setSidebarOnClick(!sidebarOnClick)}
+                className='sidebar__menu--button'
+            >
+                <box-icon
+                    name='arrow-back'
+                    size='20px'
+                    color='#149eca'
+                ></box-icon>
+                {sidebarOnClick ? 'Hide' : 'Show'} Menu
+            </button >
 
-        </aside>
+
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+            <p>Hi</p>
+
+        </aside >
     )
 }
 

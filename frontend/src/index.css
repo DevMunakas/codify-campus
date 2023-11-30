@@ -46,3 +46,15 @@ body {
   background-color: var(--body-background-color);
   color: var(--text-color);
 }
+
+/* Small Screens */
+@media screen and (max-width: 900px) {
+  :root {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  :root {
+  }
+}
