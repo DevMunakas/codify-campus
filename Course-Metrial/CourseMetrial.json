@@ -1,0 +1,78 @@
+{
+  "courseInfo": {
+    "title": "JavaScript Programming Course",
+    "description": "A comprehensive course covering JavaScript programming language.",
+    "aboutCourse": {
+      "instructors": ["John Doe", "Jane Smith"],
+      "requirements": ["Basic understanding of HTML/CSS"]
+    }
+  },
+  "courseMaterial": {
+    "beginner": {
+      "title": "Beginner Level",
+      "chapters": [
+        {
+          "title": "Introduction to JavaScript",
+          "lessons": [
+            {
+              "id": "1",
+              "title": "What is JavaScript?",
+              "explanation": "Introduction to JavaScript and its role in web development.",
+              "exercise": "Write a simple 'Hello World' program in JavaScript."
+            },
+            {
+              "id": "2",
+              "title": "Variables and Data Types",
+              "explanation": "Understanding variables and different data types in JavaScript.",
+              "exercise": "Create variables of different data types and perform operations on them."
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "title": "Intermediate Level",
+      "chapters": [
+        {
+          "title": "Functions and Scope",
+          "lessons": [
+            {
+              "id": "1",
+              "title": "Functions in JavaScript",
+              "explanation": "Detailed explanation of functions and their usage in JavaScript.",
+              "exercise": "Write a set of functions to solve specific problems."
+            },
+            {
+              "id": "2",
+              "title": "Scope and Closures",
+              "explanation": "Understanding scope and closures in JavaScript.",
+              "exercise": "Create examples demonstrating closure behavior."
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Advanced Level",
+      "chapters": [
+        {
+          "title": "Asynchronous JavaScript",
+          "lessons": [
+            {
+              "id": "1",
+              "title": "Promises and Async/Await",
+              "explanation": "In-depth explanation of asynchronous programming using promises and async/await.",
+              "exercise": "Develop an application using async functions and handle promises."
+            },
+            {
+              "id": "2",
+              "title": "Event Loop",
+              "explanation": "Understanding the event loop and its role in JavaScript concurrency.",
+              "exercise": "Create examples to demonstrate event loop behavior."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

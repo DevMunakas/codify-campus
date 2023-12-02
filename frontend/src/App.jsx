@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 //App Styles 
 import './App.css'
 //Pages
-import Home from './pages/Home/Home'
+import HomeLayout from './pages/HomeLayout/HomeLayout'
 import Login from './pages/Login/Login'
 import Signup from './pages/Signup/Signup'
 
@@ -24,7 +24,7 @@ function App() {
       <div className="app">
         <Routes>
           <Route path='/' element={<Layout />}>
-            <Route path='' element={<Home />} >
+            <Route path='' element={<HomeLayout />}>
               <Route index element={<Main />} />
               <Route path='Lessons/:id' element={<Lessons />} />
             </Route>

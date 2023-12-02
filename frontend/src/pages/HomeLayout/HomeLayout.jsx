@@ -1,20 +1,20 @@
 //React Hooks
 import React from 'react'
 
-//Home Styles
-import './Home.css'
+//HomeLayout Styles
+import './HomeLayout.css'
 
 //Component
 import Sidebar from '../../components/Sidebar/Sidebar'
 import Main from '../../components/Main/Main'
 import { Outlet } from 'react-router-dom'
-function Home() {
+function HomeLayout() {
     return (
-        <div className='Home'>
+        <div className='HomeLayout'>
             <Sidebar />
             <Outlet />
         </div>
     )
 }
 
-export default Home
+export default HomeLayout
