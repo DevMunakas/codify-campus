@@ -4,10 +4,11 @@ import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 //Fake Sidebar Data
-import { topics } from './SidebarData'
+import CourseData from '../../CourseMaterial/CourseData.json';
 //Sidebar Styles
 import './Sidebar.css'
 
+console.log(CourseData)
 
 function Sidebar() {
     const [sidebarOnClick, setSidebarOnClick] = useState(false)
@@ -25,52 +26,23 @@ function Sidebar() {
                 {sidebarOnClick ? 'Hide' : 'Show'} Menu
             </button >
 
+            <div className="sidebar__content">
 
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-            <p>Hi</p>
-
+                <ul className="sidebar__list">
+                    {CourseData && CourseData?.contents.map((course) => (
+                        <li
+                            key={course.id}
+                            className="sidebar__item"
+                        >
+                            <NavLink
+                                to={`Lessons/${course.title}`}
+                                className="sidebar__link">
+                                {`${course.id}. ${course.title}`}
+                            </NavLink>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </aside >
     )
 }

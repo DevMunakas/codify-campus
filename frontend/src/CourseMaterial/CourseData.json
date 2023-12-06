@@ -1,0 +1,629 @@
+{
+  "headers": {
+    "header1": {
+      "title": "Header 1",
+      "content": "Content for Header 1"
+    },
+    "header2": {
+      "title": "Header 2",
+      "content": "Content for Header 2"
+    }
+  },
+  "contents": [
+    {
+      "id": 1,
+      "title": "Introduction to JavaScript",
+      "level": "beginner",
+      "contents": [
+        {"type": "explanation", "content":"JavaScript is a powerful scripting language primarily used for web development. It's a dynamic language that enables developers to add interactivity and functionality to websites. Think of it as the language of the web that brings static web pages to life. Developers use JavaScript to create various elements on a webpage that users can interact with. For instance, when you click a button to submit a form, watch a video, play a game, or even interact with maps on a website, that's all made possible with JavaScript. One of its core strengths is its ability to manipulate the Document Object Model (DOM) of a webpage. The DOM represents the structure of a web document, and JavaScript allows developers to modify it dynamically. This means you can change elements, like text or images, without reloading the entire page, providing a smoother and more interactive user experience. Moreover, JavaScript is versatile and supports various frameworks and libraries like React, Angular, and Vue.js, which streamline the development process by offering pre-built components and functionalities. Understanding JavaScript is essential for modern web development. It empowers developers to create dynamic, responsive, and user-friendly websites, making it a cornerstone in the toolkit of any web developer.This explanation delves deeper into the technical aspects and significance of JavaScript in modern web development, emphasizing its role in creating interactive and user-friendly web experiences."},
+        { "type": "exercise", "prompt": "Write a simple 'Hello World' program In JavaScript you can do a Quick Google Search" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "What Is JavaScript?",
+      "level": "beginner",
+      "contents": [
+        { "type":"explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 3,
+      "title": "Download Tools",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 4,
+      "title": "Your First JavaScript App",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    },    {
+      "id": 5,
+      "title": "Prettier",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 6,
+      "title": "Basic Variables",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 7,
+      "title": "First Variable",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 8,
+      "title": "Number Type",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+ 
+    ,{
+      "id": 9,
+      "title": "String Type",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 10,
+      "title": "Null And Undefined Type",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 11,
+      "title": "Variable Comparison",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 12,
+      "title": "Garbage Collection",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 13,
+      "title": "Comments",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }   
+    ,{
+      "id": 14,
+      "title": "Functions/Scoping",
+      "level": "beginner",
+      "explanation": "Understanding variables, strings, numbers, and booleans",
+      "contents": [
+        { "type": "text", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 15,
+      "title": "Normal Functions",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 16,
+      "title": "Passing Functions As Arguments",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+        ,{
+      "id": 17,
+      "title": "Arrow Functions",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 18,
+      "title": "Stack Trace And Call Stack",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    ,{
+      "id": 19,
+      "title": "Hoisting",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 20,
+      "title": "Scoping",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }   
+    ,{
+      "id": 21,
+      "title": "Closures",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 22,
+      "title": "Advanced Variables",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    } 
+    ,{
+      "id": 23,
+      "title": "Const",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 24,
+      "title": "var",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }   
+     ,{
+      "id": 25,
+      "title": "Type Coercion",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 26,
+      "title": "== Vs ===",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    ,{
+      "id": 27,
+      "title": "NaN",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 28,
+      "title": "Arrays",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    ,{
+      "id": 29,
+      "title": "Objects",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 30,
+      "title": "Reference Vs Value",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    ,{
+      "id": 31,
+      "title": "Array Methods",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 32,
+      "title": "String Template Literals",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    ,{
+      "id": 33,
+      "title": "New And This",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 34,
+      "title": "Basic DOM Manipulation",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 35,
+      "title": "Async Vs Defer",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 36,
+      "title": "Window",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    ,{
+      "id": 37,
+      "title": "Document Object Model",
+      "level": "beginner",
+      "explanation": "Understanding variables, strings, numbers, and booleans",
+      "contents": [
+        { "type": "text", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    ,{
+      "id": 38,
+      "title": "Id And Class Selectors",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    ,{
+      "id": 39,
+      "title": "Query Selectors",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    ,{
+      "id": 40,
+      "title": "Event Listeners",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 41,
+      "title": "Additional Differences Between Arrow And Normal Functions",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 42,
+      "title": "Data Attributes",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 43,
+      "title": "DOM Traversal",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 44,
+      "title": "Simple Todo List",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 45,
+      "title": "Modal Introduction",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 46,
+      "title": "Modal Walkthrough",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 47,
+      "title": "Control Flow",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 48,
+      "title": "If statement",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 49,
+      "title": "Ternary Operator",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 50,
+      "title": "Event Listeners",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 51,
+      "title": "Switch Statement",
+      "level": "For Loop",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 52,
+      "title": "For Loop",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 68,
+      "title": "While Loop",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 53,
+      "title": "Recursion",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 54,
+      "title": "Short Circuit Evaluation",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 55,
+      "title": "Asynchronous Code",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 56,
+      "title": "Callbacks",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 57,
+      "title": "Promises",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 58,
+      "title": "Async Await",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 59,
+      "title": "Advanced DOM",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 60,
+      "title": "Fetch API",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+    ,{
+      "id": 61,
+      "title": "Event Loop",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }   
+     ,{
+      "id": 62,
+      "title": "Event Delegation",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+    ,{
+      "id": 63,
+      "title": "Browser Storage",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }     ,{
+      "id": 64,
+      "title": "Modules/Bundlers",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }    
+     ,{
+      "id": 65,
+      "title": "ES6 Modules",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+         
+    ,{
+      "id": 66,
+      "title": "NPM",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }   
+    ,{
+      "id": 67,
+      "title": "Vite",
+      "level": "beginner",
+      "contents": [
+        { "type": "explanation", "content": "Content for variables and data types..." },
+        { "type": "exercise", "prompt": "Create variables and perform operations" }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+

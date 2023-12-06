@@ -1,19 +1,22 @@
 .sidebar {
   flex-basis: 40%;
-  min-width: 200px;
+  max-width: 250px;
   height: 90vh;
   padding-bottom: 2rem;
-  padding-inline: 1em;
+  padding-inline: 0.3em;
   position: fixed;
   top: 70px;
   left: 0;
-}
-.sidebar__menu--button {
-  display: none;
+  box-shadow: 0 0 10px hsl(220, 15%, 25%);
+  overflow-y: hidden;
 }
 .sidebar:hover {
   overflow-y: auto;
 }
+.sidebar__menu--button {
+  display: none;
+}
+
 .sidebar::-webkit-scrollbar {
   width: 16px;
 }
@@ -36,24 +39,24 @@
 .sidebar__content {
   margin-bottom: 30px;
 }
-.sidebar__header--title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.sidebar__topics {
+
+.sidebar__list {
   list-style-type: none;
-  padding-left: 15px;
 }
-.sidebar__topic {
-  font-size: 0.8rem;
-  margin-bottom: 10px;
-  font-weight: 400;
+.sidebar__item {
+  display: flex;
+  gap: 2px;
+  margin-block: 1em;
+  font-weight: 800;
+  font-size: 0.625rem;
 }
-.sidebar__topic > a {
+.sidebar__link {
+  width: 100%;
   text-decoration: none;
   color: #efefef;
-  background-color: transparent;
+}
+.sidebar__link.active {
+  color: #149eca;
 }
 @media screen and (max-width: 850px) {
   .sidebar {
